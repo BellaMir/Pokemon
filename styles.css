@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+    width:60%
+}
+*{
+  margin: 0 auto;  
+}
+.gallery{
+   display: flex;
+   text-align: center;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+h1 img{
+width: 450px;
+}
+h1{
+    text-align: center;
+    padding: 30px;
+}
+figure img{
+   width: 150px;
+   height: 100px;
+ 
+}
+/*figure img:hover{
+    opacity: .100;
+}*/
+figure{
+   border: solid 2px black;
+   padding: 20px;
+   margin: 10px;
+}
+figure img:hover{
+
+        z-index:1;
+        filter:alpha(opacity=30);
+        -moz-opacity:.30;
+        opacity:.30;
+    }
+
+
+
+
+
+
